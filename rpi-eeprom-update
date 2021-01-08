@@ -10,7 +10,6 @@ if [ -f /etc/default/rpi-eeprom-update ]; then
    . /etc/default/rpi-eeprom-update
 fi
 
-LOCAL_MODE=0
 if [ -n "$FIRMWARE_ROOT" ]; then
    # Provided by environment
    true
